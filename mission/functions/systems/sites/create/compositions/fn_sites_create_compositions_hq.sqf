@@ -31,8 +31,9 @@ params ["_position"];
 
 vn_mf_hq_compositions_default = [];
 vn_mf_hq_compositions = [];
+//toLower(worldName) in ["cam_lao_nam", "vn_khe_sanh", "vn_the_bra", "RungSat"]
 
-if(toLower(worldName) in ["cam_lao_nam", "vn_khe_sanh", "vn_the_bra"])then {
+if(0 == 0)then {
 	vn_mf_hq_compositions_default = [
 		//v1
 		[
@@ -1030,11 +1031,6 @@ if(toLower(worldName) in ["cam_lao_nam", "vn_khe_sanh", "vn_the_bra"])then {
 		]
 	];
 };
-
-//if(toLower(worldName) isEqualTo "tanoa")then {
-//	vn_mf_hq_composition = [
-//	];
-//};
 
 private _randomAngle = [0,360] call BIS_fnc_randomInt;
 private _hqObjects = [_position, _randomAngle, selectRandom vn_mf_hq_compositions, 0] call vn_mf_fnc_sites_create_objects_with_tree_removal;

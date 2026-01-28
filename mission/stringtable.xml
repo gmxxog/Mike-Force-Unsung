@@ -1845,6 +1845,32 @@
         <Original>Hill186</Original>
       </Key
     </Container>
+	<Container name="ZoneName_rung_sat">
+	  <Key ID="STR_vn_mf_zone_an_thanh">
+	    <Original>An Thanh</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_ba_tri">
+	    <Original>Ba Tri</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_bin_thoi">
+	    <Original>Bin Thoi</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_binh_dai">
+	    <Original>Binh Dai</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_dong_hai">
+	    <Original>Dong_Hai</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_ly_ngon">
+	    <Original>Ly Ngon</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_phu_vinh">
+	    <Original>Phu Vinh</Original>
+	  </Key>
+	  <Key ID="STR_vn_mf_zone_vung_tau">
+	    <Original>Vung Tau</Original>
+	  </Key>
+	</Container>
     <Container name="ZoneName_the_bra">
       <Key ID="STR_vn_mf_zone_ban_dac_maruk">
         <Original>Ban Dac Maruk</Original>

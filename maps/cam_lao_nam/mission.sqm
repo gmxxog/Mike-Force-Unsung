@@ -8,7 +8,7 @@ class EditorData
 	toggles=618;
 	class ItemIDProvider
 	{
-		nextID=20327;
+		nextID=20775;
 	};
 	class MarkerIDProvider
 	{
@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=33846;
+		nextID=33971;
 	};
 	class Camera
 	{
-		pos[]={16590.727,57.895916,7063.8413};
-		dir[]={-0.81858784,-0.55386853,0.15287606};
-		up[]={-0.54453176,0.83254421,0.10169505};
-		aside[]={0.18360583,-7.6317883e-07,0.98309672};
+		pos[]={6686.9111,275.40936,1533.7993};
+		dir[]={-0.44535643,-0.66453677,-0.60007316};
+		up[]={-0.39604396,0.74725085,-0.53362823};
+		aside[]={-0.80302024,-4.0428131e-07,0.59597719};
 	};
 };
 binarizationWanted=0;
-sourceName="MikeForce";
+sourceName="bn_mikeforce_indev";
 addons[]=
 {
 	"objects_f_vietnam_c",
@@ -55,6 +55,8 @@ addons[]=
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Structures_F_EPC_Civ_Camping",
 	"weapons_f_vietnam_c",
+	"cba_jam_vn",
+	"weapons_f_vietnam_05_c",
 	"A3_Weapons_F",
 	"A3_Weapons_F_Orange",
 	"characters_f_vietnam_03_c",
@@ -93,7 +95,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=38;
+		items=40;
 		class Item0
 		{
 			className="objects_f_vietnam_c";
@@ -229,131 +231,145 @@ class AddonsMetaData
 		};
 		class Item19
 		{
+			className="cba_jam_vn";
+			name="Community Base Addons - Joint Ammo Magazines";
+			author="CBA Team";
+			url="https://www.github.com/CBATeam/CBA_A3";
+		};
+		class Item20
+		{
+			className="weapons_f_vietnam_05_c";
+			name="weapons_f_vietnam_05_c";
+			author="Savage Game Design";
+			url="https://www.arma3.com";
+		};
+		class Item21
+		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item22
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item23
 		{
 			className="characters_f_vietnam_03_c";
 			name="characters_f_vietnam_03_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item24
 		{
 			className="characters_f_vietnam_04_c";
 			name="characters_f_vietnam_04_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item23
+		class Item25
 		{
 			className="A3_Props_F_AoW";
 			name="Arma 3 Art of War - Decorative and Mission ";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item26
 		{
 			className="A3_Structures_F_Mark";
 			name="Arma 3 Marksmen - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item27
 		{
 			className="characters_f_vietnam_02_c";
 			name="characters_f_vietnam_02_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item26
+		class Item28
 		{
 			className="A3_Structures_F_Exp_Civilian";
 			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
+		class Item29
 		{
 			className="A3_Static_F_Jets";
 			name="Arma 3 Jets - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item30
 		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item31
 		{
 			className="air_f_vietnam_c";
 			name="air_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item30
+		class Item32
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item33
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
+		class Item34
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item35
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item36
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item37
 		{
 			className="static_f_vietnam_02_c";
 			name="static_f_vietnam_02_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item38
 		{
 			className="A3_Air_F";
 			name="Arma 3 Alpha - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item37
+		class Item39
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
@@ -418,8 +434,8 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="SharedObjectives";
-			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
+			property="ReviveRequiredItems";
+			expression="false";
 			class Value
 			{
 				class data
@@ -469,8 +485,8 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="ReviveRequiredItems";
-			expression="false";
+			property="SharedObjectives";
+			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
 			class Value
 			{
 				class data
@@ -487,6 +503,19 @@ class CustomAttributes
 		name="Scenario";
 		class Attribute0
 		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="EnableDebugConsole";
 			expression="true";
 			class Value
@@ -498,7 +527,7 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=1;
+		nAttributes=2;
 	};
 };
 class Mission
@@ -526,7 +555,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=428;
+		items=429;
 		class Item0
 		{
 			dataType="Marker";
@@ -6396,7 +6425,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4460.6431,137.10428,16678.188};
+						position[]={4460.6431,137.1042,16678.188};
 						angles[]={0,5.8483715,0};
 					};
 					side="Empty";
@@ -6407,7 +6436,7 @@ class Mission
 					};
 					id=940;
 					type="Land_vn_powerpolewooden_f";
-					atlOffset=0.035079956;
+					atlOffset=0.035003662;
 				};
 				class Item2
 				{
@@ -6421,7 +6450,7 @@ class Mission
 				};
 			};
 			id=939;
-			atlOffset=59.675079;
+			atlOffset=59.675064;
 		};
 		class Item9
 		{
@@ -11020,7 +11049,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupIdGlobal [_value];";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
 					class Value
 					{
 						class data
@@ -20841,7 +20870,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16443.553,15.582838,7119.3638};
-								angles[]={0,2.1159651e-06,-0};
+								angles[]={0,2.1159651e-06,0};
 							};
 							side="Empty";
 							flags=5;
@@ -20876,7 +20905,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16443.557,15.582836,7118.1147};
-								angles[]={0,6.146791,-0};
+								angles[]={0,6.146791,0};
 							};
 							side="Empty";
 							flags=5;
@@ -20911,7 +20940,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16442.807,15.582836,7118.1172};
-								angles[]={0,0.041001063,-0};
+								angles[]={0,0.041001063,0};
 							};
 							side="Empty";
 							flags=5;
@@ -20946,7 +20975,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16442.809,15.582838,7119.3687};
-								angles[]={0,0.21475625,-0};
+								angles[]={0,0.21475625,0};
 							};
 							side="Empty";
 							flags=5;
@@ -20981,7 +21010,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16443.555,15.582841,7120.6191};
-								angles[]={0,6.2463264,-0};
+								angles[]={0,6.2463264,0};
 							};
 							side="Empty";
 							flags=5;
@@ -21016,7 +21045,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16442.807,15.582841,7120.6133};
-								angles[]={0,0.13184953,-0};
+								angles[]={0,0.13184953,0};
 							};
 							side="Empty";
 							flags=5;
@@ -21051,7 +21080,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16440.305,15.582838,7119.3667};
-								angles[]={0,6.1454124,-0};
+								angles[]={0,6.1454124,0};
 							};
 							side="Empty";
 							flags=5;
@@ -21099,7 +21128,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16441.057,15.582841,7120.6104};
-								angles[]={0,6.1949453,-0};
+								angles[]={0,6.1949453,0};
 							};
 							side="Empty";
 							flags=5;
@@ -21168,7 +21197,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16441.055,15.582838,7119.3696};
-								angles[]={0,2.1159651e-06,-0};
+								angles[]={0,2.1159651e-06,0};
 							};
 							side="Empty";
 							flags=5;
@@ -21203,7 +21232,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16441.051,15.582836,7118.1162};
-								angles[]={0,0.11149569,-0};
+								angles[]={0,0.11149569,0};
 							};
 							side="Empty";
 							flags=5;
@@ -21238,7 +21267,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16440.305,15.582792,7118.1191};
-								angles[]={0,0.041001063,-0};
+								angles[]={0,0.041001063,0};
 							};
 							side="Empty";
 							flags=5;
@@ -22152,7 +22181,7 @@ class Mission
 							};
 							id=20323;
 							type="Land_vn_lampshabby_f_dir_normal";
-							atlOffset=-4.5047569;
+							atlOffset=-4.5047579;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -22212,7 +22241,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16440.371,14.93609,7114.8818};
-								angles[]={0,3.6566272,-0};
+								angles[]={0,3.6566272,0};
 							};
 							side="Empty";
 							flags=5;
@@ -26945,6 +26974,7 @@ class Mission
 							};
 							id=20259;
 							type="Land_vn_bargate_f";
+							atlOffset=9.5367432e-07;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -32930,7 +32960,7 @@ class Mission
 									};
 									id=18423;
 									type="Land_HelipadEmpty_F";
-									atlOffset=0.011260986;
+									atlOffset=0.013122559;
 								};
 								class Item2
 								{
@@ -44290,13 +44320,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={11454.896,69.967651,14628.727};
-								angles[]={0,5.7018123,0};
+								position[]={11454.896,69.967407,14628.727};
+								angles[]={0,5.7018161,0};
 							};
 							init="['dac_car', 0] call vn_mf_fnc_veh_asset_3DEN_spawn_point";
 							id=17820;
 							type="Logic";
-							atlOffset=0.066246033;
+							atlOffset=0.066001892;
 						};
 						class Item37
 						{
@@ -60391,7 +60421,7 @@ class Mission
 					name="connector_attapeu_sihanoukville_1";
 					text="Connector Attapeu to Sihanoukville";
 					type="mil_arrow";
-					angle=228.70738;
+					angle=228.70737;
 					id=19648;
 					atlOffset=-52.366173;
 				};
@@ -60867,7 +60897,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16541.59,15.575582,7085.1631};
-				angles[]={0,4.712389,-0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=5;
@@ -60884,7 +60914,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16541.59,15.575582,7059.064};
-				angles[]={0,4.712389,-0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=5;
@@ -60894,6 +60924,13 @@ class Mission
 			id=20326;
 			type="Land_vn_sign_warningmilitaryarea_f";
 			atlOffset=-0.44437695;
+		};
+		class Item428
+		{
+			dataType="Layer";
+			name="Vietnam Carrier (Detailed & Crewed, No Mods)";
+			id=20774;
+			atlOffset=68.241173;
 		};
 	};
 	class Connections

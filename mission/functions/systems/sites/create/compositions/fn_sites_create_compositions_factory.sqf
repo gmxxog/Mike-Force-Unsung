@@ -32,8 +32,8 @@ params ["_position"];
 
 vn_mf_factory_compositions_default = [];
 vn_mf_factory_compositions = [];
-
-if(toLower(worldName) in ["cam_lao_nam", "vn_khe_sanh", "vn_the_bra"])then {
+//toLower(worldName) in ["cam_lao_nam", "vn_khe_sanh", "vn_the_bra", "RungSat"]
+if(0 == 0)then {
 	vn_mf_factory_compositions_default = [
 [//BN_Depotv1
 	["Land_vn_pavn_weapons_stack1",[-0.233398,-0.0214844,0.66479],90,1,0,[0,0],"","",false,false], 
@@ -1270,11 +1270,6 @@ if(toLower(worldName) in ["cam_lao_nam", "vn_khe_sanh", "vn_the_bra"])then {
 ]
 	];
 };
-
-//if(toLower(worldName) isEqualTo "tanoa")then {
-//	vn_mf_hq_composition = [
-//	];
-//};
 
 private _randomAngle = [0,360] call BIS_fnc_randomInt;
 private _factoryObjects = [_position, _randomAngle, selectRandom vn_mf_factory_compositions, 0] call vn_mf_fnc_sites_create_objects_with_tree_removal;
