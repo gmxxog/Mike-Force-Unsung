@@ -25,7 +25,7 @@ class AmmoCrateLight
 	{"vn_l1a1_01",  2}
 		};
 	magazines[] = {				
-/*
+
 //Nickel Steel					
 	{"vnx_hd_02_mag",		20},
 	{"vnx_gjet_mag",		20},
@@ -33,7 +33,7 @@ class AmmoCrateLight
 	{"vnx_m12_smg_32_mag",	30},
 	{"vnx_m12_smg_20_mag",	30},
 	{"vnx_m50_smg_mag",		30},				
-*/
+
 //Pistol					
 	{"vn_welrod_mag",		20},
 	{"vn_hp_mag",			20},
@@ -117,7 +117,7 @@ class AmmoCrateSupport
 	{"vn_m1897",	2}
     	};
 	magazines[] = {					
-/*
+
 //Nickel Steel					
 	{"vnx_m77e_fl_mag",				60},
 	{"vnx_m77e_buck_mag",			30},
@@ -132,7 +132,7 @@ class AmmoCrateSupport
 	{"vnx_37mm_flare_mag",			20},
 	{"vnx_mk3a2_grenade_mag",		20},
 	{"vnx_stg44_t_mag",				20},				
-*/
+
 //LMG					
 	{"vn_m60_100_mag",				30},
 	{"vn_m63a_150_mag",				15},

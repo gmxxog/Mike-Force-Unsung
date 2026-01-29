@@ -1,5 +1,10 @@
 # README
 
+## This Variant Requires 
+ cba, 
+ nickel steel, 
+ and unsung redux
+
 ## IMPORTANT LICENSING INFORMATION
 
 We're still finalising the license under which this code can be modified and redistributed. 

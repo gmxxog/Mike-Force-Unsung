@@ -3627,6 +3627,7 @@ class Land_vn_czechhedgehog_01_f
 	};
 };
 
+/* Disabled the monocolered sandbags due to build glitches
 class Land_vn_bagfence_long_f
 {
 	name = "";
@@ -3781,6 +3782,7 @@ class Land_vn_bagfence_short_f
 		};
 	};
 };
+*/
 
 class Land_vn_sandbagbarricade_01_f
 {

@@ -36,7 +36,7 @@ class vn_whitelisted_arsenal_loadouts
 					{ "vn_dp28", 							{ 3,-1,-1, 6}}
 		*/
 weapons[] = {
-/*
+
     // Nickel Steel
     // Weapons
     {"vnx_m77e",                {-1, 0, 0, 0}},     // Model 77E 12 gauge Shotgun, 5-round mag
@@ -72,7 +72,7 @@ weapons[] = {
     {"vnx_b_no4",               {-1, 0, 0, 0}},     // Bayonet Spike [No.4]
     {"vnx_o_aa_fm2429",         {0, 0, 0, 0}},      // Optic (FM24/29 AA)
     {"vnx_xm148_muzzle",        {0, 0, 0, 0}},      // XM148 40mm Under-barrel Grenade Launcher. Fires 40mm HE grenades, smoke and flares
-*/
+
     // Rifles
     // BluFor
     {"vn_m40a1",                {-1, 0, 0, -1}},    // M40 Sniper Rifle firing 7.62x51mm match-grade ammunition
@@ -433,7 +433,7 @@ weapons[] = {
 };
 
 magazines[] = {
-/*
+
     // Nickel Steel
     // Mags
     {"vnx_m77e_fl_mag",         {-1, 0, 0, 0}},     // 5Rnd. M77E Reload. Caliber: 12 gauge flechette. Used in Model 77E shotgun
@@ -462,7 +462,7 @@ magazines[] = {
     {"vnx_mk3a2_grenade_mag",   {-1, 0, 0, 0}},     // US MK3A2 grenade - 227g TNT, concussion, 5s fuze, effective radius 5m
     {"vnx_stg44_mag",           {0, -1, 0, 0}},     // 30Rnds StG44 Magazine Caliber 7.92x33mm used in StG44
     {"vnx_stg44_t_mag",         {0, -1, 0, 0}},     // 30Rnds StG44 Tracer Magazine Caliber 7.92x33mm used in StG44
-*/
+
     // Rifle Grenades
     {"vn_22mm_cs_mag",          {0, 0, 0, -1}},     // 22mm CS Riot gas rifle grenade used in SKS, M1 Carbine and M49/56
     {"vn_22mm_he_mag",          {0, 0, 0, -1}},     // 22mm FRAG rifle grenade used in M49/56 rifle
@@ -838,7 +838,7 @@ magazines[] = {
 };
 
 items[] =   {
-/*
+
     // Nickel Steel
     // Uniforms
     {"vnx_b_helmet_aph6_01_06", {-1, 0, 0, 0}}, // Helmet APH-6 Olive Green
@@ -872,7 +872,7 @@ items[] =   {
     {"vnx_b_vest_usaf_05",      {-1, 0, 0, 0}}, // Vest - USAF (Security 2), CSPS Patrol
     {"vnx_b_vest_usaf_06",      {-1, 0, 0, 0}}, // Vest - USAF (Security 3), CSPS Lead patrol
     {"vnx_b_vest_usaf_07",      {-1, 0, 0, 0}}, // Vest - USAF (Security 4), CSPS lead patrol
-*/
+
     // Basics
     {"vn_b_item_lighter_01",    {-1, -1, -1, -1}},
     {"FirstAidKit",             {-1, -1, -1, -1}},
@@ -1589,7 +1589,7 @@ backpacks[] =
 };
 vehicles[] =
 {
-/*    
+
     //Nickel Steel
 	{"vnx_b_armor_m163_01",				{-1, 0, 0, 0}},	// M113 Vulcan Cannon
 	{"vnx_b_armor_lvtp5_01",			{-1, 0, 0, 0}},	// Marine Landing Vehicle
@@ -1628,7 +1628,7 @@ vehicles[] =
 	{"vnx_o_wheeled_tuktuk_mg_02_vc",	{0, -1, 0, 0}},	// MG Rear
 	{"vnx_o_wheeled_tuktuk_mg_01_vc",	{0, -1, 0, 0}},	// MG Top Front
 	{"vnx_o_wheeled_tuktuk_01_vc",		{0, -1, 0, 0}},	// Unarmed
-*/    
+
 			{ "NonSteerable_Parachute_F", 			{ 0, 0, 0, 0}},
 			{ "Steerable_Parachute_F", 				{ 0, 0, 0, 0}},
 			{ "vn_b_air_ah1g_01", 					{ 0, 0, 0, 0}},
