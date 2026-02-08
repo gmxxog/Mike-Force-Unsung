@@ -204,6 +204,7 @@ class spawn_point_types {
 					"vn_b_wheeled_m151_mg_03",
 					"vn_b_wheeled_m151_mg_04",
 					"vn_b_wheeled_m151_mg_05",
+					"vn_b_wheeled_m151_mg_06"
 				};
 			};
 			class m151_armed_mp {
@@ -271,6 +272,15 @@ class spawn_point_types {
 					"vn_b_armor_m113_acav_05",
 					"vn_b_armor_m577_01",
 					"vn_b_armor_m577_02",
+				};
+			};
+			class car {
+				name = "XM706";
+				icon = VEHICLE_ICON_ARMOUR;
+				vehicles[] = {
+					"uns_xm706",
+					"uns_xm706e1",
+					"uns_xm706e2"
 				};
 			};
 			class trucks {
@@ -527,6 +537,15 @@ class spawn_point_types {
 					"vn_b_armor_m113_01_aus_army",
 				};
 			};
+			class car {
+				name = "XM706";
+				icon = VEHICLE_ICON_ARMOUR;
+				vehicles[] = {
+					"uns_xm706",
+					"uns_xm706e1",
+					"uns_xm706e2"
+				};
+			};
 		};
 	};
 
@@ -546,8 +565,7 @@ class spawn_point_types {
 					"vn_b_sf_static_m40a1rr",
 					"vn_b_army_static_tow",
 					"vn_b_sf_static_tow",
-					 // @dijksterhuis: disabled until i confirm whether an anti-tank 105 should be here?
-					// "vn_b_army_static_m101_01",
+					"vn_b_army_static_m101_01",
 				};
 
 			};
